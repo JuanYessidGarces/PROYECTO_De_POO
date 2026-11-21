@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(solo_leveling main.cpp
         Entidad.h
-        Entidad.cpp)
+        Entidad.cpp
+        Objeto.h
+        Objeto.cpp)
