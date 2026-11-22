@@ -23,4 +23,6 @@ add_executable(solo_leveling main.cpp
         SerpienteKasaka.h
         SerpienteKasaka.cpp
         JefeIgris.h
-        JefeIgris.cpp)
+        JefeIgris.cpp
+        Juego.h
+        Juego.cpp)
