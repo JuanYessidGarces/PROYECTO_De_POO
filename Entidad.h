@@ -1,6 +1,7 @@
 
 #ifndef SOLO_LEVELING_ENTIDAD_H
 #define SOLO_LEVELING_ENTIDAD_H
+#include <string>
 /**
  * @class Entidad
  * @brief Clase base abstracta que representa a cualquier ser vivo en la mazmorra.

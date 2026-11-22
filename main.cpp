@@ -1,14 +1,22 @@
-#include <iostream>
+#include "Juego.h"
+
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
+/**
+ * @file main.cpp
+ * @brief Punto de entrada principal del juego RPG "Solo Leveling".
+ * Configura la codificacion UTF-8 en Windows para mostrar correctamente
+ * tildes y signos de puntuacion en espanol (¡, ¿, ñ, á, é, í, ó, ú).
+ */
 int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
+#ifdef _WIN32
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
+#endif
 
-    const auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
-    }
-
+    Juego juego;
+    juego.iniciar();
     return 0;
 }
