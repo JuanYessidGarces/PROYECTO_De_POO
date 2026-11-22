@@ -8,4 +8,7 @@ add_executable(solo_leveling main.cpp
         Entidad.h
         Entidad.cpp
         Objeto.h
-        Objeto.cpp)
+        Objeto.cpp
+        Enemigo.h
+        Enemigo.h
+        Enemigo.cpp)
