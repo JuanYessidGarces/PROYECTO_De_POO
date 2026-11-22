@@ -13,4 +13,6 @@ add_executable(solo_leveling main.cpp
         Enemigo.h
         Enemigo.cpp
         Habitacion.h
-        Habitacion.cpp)
+        Habitacion.cpp
+        Jugador.h
+        Jugador.cpp)
