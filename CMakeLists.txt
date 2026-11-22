@@ -19,4 +19,6 @@ add_executable(solo_leveling main.cpp
         Goblin.h
         Goblin.cpp
         EstatuaAltar.h
-        EstatuaAltar.cpp)
+        EstatuaAltar.cpp
+        SerpienteKasaka.h
+        SerpienteKasaka.cpp)
